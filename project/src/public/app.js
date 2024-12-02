@@ -61,7 +61,7 @@ window.onclick = (event) => {
     }
 };
 
-// Form submission
+// Form submission 
 itemForm.onsubmit = async (e) => {
     e.preventDefault();
     const itemId = document.getElementById('itemId').value;

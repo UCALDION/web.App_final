@@ -1,4 +1,7 @@
-## Local Run
+## Description about the Website:
+The website is a simple website that allows users to browse and insert
+
+## How to Local Run
 
 1. Clone the repository:
    ```bash

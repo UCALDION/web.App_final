@@ -16,15 +16,6 @@ body {
     padding: 20px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 .search-container {
     display: flex;
     gap: 10px;
