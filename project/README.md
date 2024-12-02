@@ -21,6 +21,12 @@ The website is a simple website that allows users to browse and insert
 
 4. Open http://localhost:3000 in your browser
 
+or 
+
+cd project
+ls
+npm install
+npm run dev
 ## API Endpoints
 
 - GET /api/items - List all items
