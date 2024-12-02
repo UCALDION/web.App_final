@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Items Manager</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search items...">
+                <button onclick="searchItems()">Search</button>
+            </div>
+            <button onclick="openModal()" class="add-btn">Add New Item</button>
+        </header>
+
+        <main>
+            <div id="itemsList"></div>
+            <div id="pagination">
+                <button onclick="previousPage()">Previous</button>
+                <span id="pageInfo"></span>
+                <button onclick="nextPage()">Next</button>
+            </div>
+        </main>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Add New Item</h2>
+                <form id="itemForm">
+                    <input type="hidden" id="itemId">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div>
+                        <label for="description">Description:</label>
+                        <textarea id="description"></textarea>
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
