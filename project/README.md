@@ -27,6 +27,7 @@ cd project
 ls
 npm install
 npm run dev
+http://localhost:3000
 ## API Endpoints
 
 - GET /api/items - List all items
