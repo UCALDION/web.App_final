@@ -4,8 +4,8 @@
   "description": "Express SQLite CRUD Application",
   "main": "src/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node project/src/server.js",
+    "dev": "nodemon project/src/server.js"
   },
   "dependencies": {
     "better-sqlite3": "^11.6.0",
